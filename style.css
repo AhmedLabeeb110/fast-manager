@@ -135,6 +135,9 @@ footer{
         position: relative;
         bottom: 1em;
       }
+      .hero-img img{
+        margin: 4em 8em 0 1em;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -152,4 +155,7 @@ footer{
         position: relative;
         bottom: 1em;
       }
+      .hero-img img{
+        margin: 4em 8em 0 1em;
+    }
 }
