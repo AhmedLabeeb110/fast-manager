@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.parent-nav {
+  background-color: #eeebea;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 4em 0 4em;
+  padding: 2em;
+}
+
+nav logo {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.nav-links li {
+  padding: 0 2em 0 0;
+  transition: all 0.3s ease-in-out;
+}
+.nav-links li:hover {
+  color: #f06a6a;
+  font-weight: 400;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.hero-main {
+  padding: 6em;
+  width: 100%;
+  position: relative;
+  top: 4em;
+}
+
+.hero-main h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3em;
+}
+
+.hero-content {
+  font-size: 1.2rem;
+}
+
+#hero-btn {
+  position: relative;
+  top: 2em;
+  padding: 0.8em 2.8em 0.8em 2.8em;
+  font-size: 1.1rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #f06a6a;
+  color: #eeebea;
+  transition: all 0.3s ease-in-out;
+}
+
+#hero-btn:hover{
+    background-color: #000;
+}
+
+.hero-img img{
+    height: auto;
+    border-radius: 1rem;
+    margin: 4em 8em 0 2em;
+    width: 80%;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .hero-main{
+        position: relative;
+        top: 4em;
+    }
+    .hero-main h1 {
+        line-height: 1.2em;
+        position: relative;
+        bottom: 1em;
+      }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .hero-main{
+        position: relative;
+        top: 4em;
+    }
+    .hero-main h1 {
+        line-height: 1.2em;
+        position: relative;
+        bottom: 1em;
+      }
+}
