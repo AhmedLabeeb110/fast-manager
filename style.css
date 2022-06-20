@@ -94,6 +94,32 @@ a:active {
     width: 80%;
 }
 
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-items{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
   and (min-device-width: 1200px) 
