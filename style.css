@@ -108,24 +108,59 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 20em 0 14em 0;
+}
+
+.prices{
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 6em;
+}
+.prices-details{
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  top: 9em;
+}
+
+#get-started{
+  padding: 0.8em 2.8em 0.8em 2.8em;
+  font-size: 1.1rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #f06a6a;
+  color: #eeebea;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 1em;
+}
+
+#get-started:hover{
+  background-color: #2a2b2c;
 }
 
 .card {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  line-height: 3.6em;
+  text-align: center;
+  /* border: .2rem solid #eda8a8; */
+  padding: 6em;
+  border-radius: 1rem;
+  background-color: #efcece;
 }
 
-main {
-  padding: 4em;
+.card h2{
+  font-size: 1.8rem;
 }
 
 footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1.4em;
   background-color: #2a2b2c;
   color: #eeebea;
   line-height: 2.2rem;
@@ -139,8 +174,11 @@ footer {
   flex-direction: column;
   padding: 2em;
   margin: 0 4em 0 4em;
+  font-size: .9rem;
 }
-
+.footer-items h3{
+  font-size: 1.3rem;
+}
 
 .footer-items a{
   transition: all .1s ease-in;
