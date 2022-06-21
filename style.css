@@ -7,6 +7,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
+
 .parent-nav {
   background-color: #eeebea;
 }
@@ -107,10 +116,18 @@ a:active {
     flex-direction: column;
 }
 
+main{
+  padding: 4em;
+}
+
 footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #2A2B2C;
+    color: #eeebea;
+    padding: 1.8em;
+    line-height: 2rem;
 }
 
 .footer-items{
@@ -118,6 +135,8 @@ footer{
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
+    margin: auto;
+    padding: 2em;
 }
 
 /* ----------- Non-Retina Screens ----------- */
