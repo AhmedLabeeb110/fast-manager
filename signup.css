@@ -1,0 +1,33 @@
+form {
+  padding: 2em 8em 6em 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  line-height: 1.2em;
+}
+
+form input {
+  width: 40em;
+  height: 3em;
+  font-size: 1rem;
+  padding-left: 1em;
+}
+
+main h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#signup-btn{
+    margin-top: 1em;
+    color: #eeebea;
+    border: 0;
+    background-color: #2a2b2c;
+    border-radius: .2em;
+    transition: all .3s ease-out;
+}
+
+#signup-btn:hover{
+    background-color: #f06a6a;
+}
